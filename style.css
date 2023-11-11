@@ -36,9 +36,9 @@
     flex-grow: 1;
     justify-content: space-evenly;
 }
-.nav-links{
+.nav-links a{
     text-decoration: none;
-    color: #d1d1d1;
+    color: #D1D1D1;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 13px;
