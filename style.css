@@ -9,7 +9,10 @@
     margin: 0 auto;
 }
 .header{
-    background-color: #1a1a1a;
+    background-image: url(/img/qoaqj3i5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding-top: 36px;
     padding-bottom: 280px;
 }
@@ -22,12 +25,12 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #1a1a1a;
+    color: #febe02;
     font-weight: bold;
 }
 .navigation-holder{
@@ -39,10 +42,10 @@
 }
 .nav-links a{
     text-decoration: none;
-    color: #D1D1D1;
+    color: #000;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 13px;
+    font-size: 15px;
 }
 .header-title{
     margin-top: 110px;
@@ -51,21 +54,22 @@
 }
 .header-subtitle-text{
     display: inline-block;
-    border-left: 1px solid #BCBCBC;
+    border-left: 1px solid #1a1a1a;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 13px;
     padding: 8px 0 8px 20px;
-    color: #BCBCBC;
+    color: #1a1a1a;
     letter-spacing: 1.5px;
     margin-bottom: 13px;
 }
 .header-title-text{
     font-size: 90px;
     font-weight: bold;
-    color: #fff;
+    color: crimson;
     max-width: 620px;
     line-height: 1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .join{
     background-color: #febe02;
@@ -97,23 +101,23 @@
 .info-title{
     font-size: 20px;
     font-weight: bold;
-    color: #fff;
+    color: #febe02;
     letter-spacing: 0.5px;
     margin-top: 15px;
     margin-bottom: 4px;
 }
 .info-subtitle{
     font-size: 13px;
-    color: #8c8c8c;
+    color: #fff;
     font-weight: bold;
     letter-spacing: 1.5px;
     display: block;
 }
 .about-subtitle-text{
     display: inline-block;
-    border-left: 1px solid #fff;
+    border-left: 1px solid #1a1a1a;
     padding: 8px 0 8px 20px;
-    color: #fff;
+    color: #1a1a1a;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 13px;
@@ -121,7 +125,7 @@
     margin-bottom: 13px;
 }
 .about-desc{
-    color: #D1D1D1;
+    color: #1a1a1a;
     max-width: 240px;
     font-size: 14px;
     line-height: 1.8;
@@ -156,7 +160,7 @@
 .about-title{
     font-size: 20px;
     font-weight: bold;
-    color: #fff;
+    color: #febe02;
     letter-spacing: 0.5px;
     margin-top: 15px;
     margin-bottom: 4px;
@@ -164,7 +168,7 @@
 }
 .about-subtitle{
     font-size: 13px;
-    color: #8c8c8c;
+    color: #fff;
     font-weight: bold;
     letter-spacing: 1.5px;
     text-align: center;
@@ -409,5 +413,10 @@
     }
     .course-name{
         font-size: 24px;
+    }
+}
+@media (min-width:579px){
+    .mob-btn{
+        display: none;
     }
 }
